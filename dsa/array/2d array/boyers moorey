@@ -1,0 +1,28 @@
+      // boyers moore voting algorithm 
+
+  // it is used to find majority element  
+
+ //    it is like:
+#include<vector>
+using namespace std;
+  class Solution {
+public:
+   long  int majorityElement(vector<int>& nums) {
+     int n=0;
+     int k=0;
+    for(int i:nums){
+    if(n==0){
+        k=i;
+    }
+    if(i==k){
+        n++;
+    }
+    else{
+        n--;
+    }
+        }
+  
+    
+     return k; 
+    }
+};
