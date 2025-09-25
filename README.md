@@ -31,8 +31,8 @@ Contains examples demonstrating **Object-Oriented Programming** concepts:
 ### 3️⃣ `class_questions`
 Contains **assignment questions from class exercises** to practice C++ concepts.
 
-### 4️⃣ `dsa_older`
-Contains older **Data Structures and Algorithms problems** for revision and practice.
+### 4️⃣ `dsa`
+Contains all **Data Structures and Algorithms problems and Topics** for revision and practice.
 
 ---
 
